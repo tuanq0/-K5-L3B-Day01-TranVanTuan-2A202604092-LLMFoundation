@@ -2,21 +2,32 @@
 
 > Đổi tên file này thành `MSSV_HoTen.md` của bạn, ví dụ `2A20260000_NguyenVanAn.md`, rồi điền từng mục. Xoá các dòng hướng dẫn in nghiêng khi xong.
 
-- **MSSV:**
-- **Họ và tên:**
-- **SEED** (in ở ô đầu notebook):
+- **MSSV:**2A202604092
+- **Họ và tên:**Trần Văn Tuấn
+- **SEED** (in ở ô đầu notebook):5906
 
 ## 1. Bằng chứng
 
 | Tệp | Có? |
 | --- | --- |
-| [`day01_lab.ipynb`](day01_lab.ipynb) — notebook đã chạy, còn output | ☐ |
-| [`lab1_report.json`](lab1_report.json) — do ô "Báo cáo cuối" sinh ra | ☐ |
-| [`hand_calc.jpg`](hand_calc.jpg) — ảnh tính tay có các bước | ☐ |
+| [`day01_lab.ipynb`](day01_lab.ipynb) — notebook đã chạy, còn output | x |
+| [`lab1_report.json`](lab1_report.json) — do ô "Báo cáo cuối" sinh ra | x |
+| [`hand_calc.jpg`](hand_calc.jpg) — ảnh tính tay có các bước | x |
 
 ## 2. Kết quả chính
 
-*Chép bảng so sánh cuối Phần 5 (F1 test, F1 SUB 40, p95 ms/tin, USD/1k tin) của chính bạn.*
+SEED=5906 · thử thách #0
+Bộ kiểm tra: 4/4 đạt
+  ✅ 1.1 vectorize
+  ✅ 1.2 sigmoid / predict_proba
+  ✅ 1.3 train_logreg
+  ✅ 1.4 metrics
+
+Dự đoán đã ghi:
+  [16:49:38] 0.9: precision cao hơn. Vì các spam thường có các từ như buy, shop, .. nên dùng đánh giá dựa trên các từ có thể đúng
+Thiếu dự đoán: ['ml_f1', 'ml_lr', 'dl_curve', 'dl_relu', 'emb_search', 'emb_tricky', 'llm_models', 'llm_fewshot', 'tradeoff', 'hard_eval']
+
+💾 Đã lưu lab1_report.json (chỉ chứa SEED, không chứa MSSV)
 
 ## 3. Dự đoán và thực tế
 
